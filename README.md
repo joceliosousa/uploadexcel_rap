@@ -31,7 +31,7 @@ O passo três fala de como instalar o módulo e configurar para subir junto no d
 Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a parte de precisar configurar os arquivos .yaml.
 
 ![image](https://github.com/user-attachments/assets/8f90ecd2-24ac-4817-b14c-521d12eb067e)
-
+ 
 Arquivo disponível no link:
 
 Resultado:
