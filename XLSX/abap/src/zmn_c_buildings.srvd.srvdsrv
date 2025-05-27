@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition ZMN_C_BUILDINGS'
+define service ZMN_C_BUILDINGS {
+  expose zmn_c_buildings as Buildings;
+}

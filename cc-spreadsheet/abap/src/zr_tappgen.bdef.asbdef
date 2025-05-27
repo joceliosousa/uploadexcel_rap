@@ -1,0 +1,46 @@
+managed implementation in class ZBP_R_TAPPGEN unique;
+strict ( 2 );
+with draft;
+
+define behavior for ZR_TAPPGEN alias appGen
+persistent table ztappgen
+draft table ZTAPPGEN_D
+etag master Locallastchangedat
+lock master total etag Lastchangedat
+authorization master( global )
+
+{
+  field ( readonly )
+   UuidRoot,
+   Createdat,
+   Createdby,
+   Lastchangedat,
+   Locallastchangedat,
+   Changedby;
+
+  field ( numbering : managed )
+   UuidRoot;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZTAPPGEN
+  {
+    UuidRoot = uuid_root;
+    SemantickeyRoot = semantickey_root;
+    Description = description;
+    Createdby = createdby;
+    Createdat = createdat;
+    Changedby = changedby;
+    Lastchangedat = lastchangedat;
+    Locallastchangedat = locallastchangedat;
+  }
+}

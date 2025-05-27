@@ -1,0 +1,43 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeName: 'appGen', 
+    typeNamePlural: 'appGens'
+  }
+}
+annotate view ZC_TAPPGEN with
+{
+  @UI.facet: [ {
+    id: 'idIdentification', 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'appGen', 
+    position: 10 
+  } ]
+  @UI.hidden: true
+  UuidRoot;
+  
+  @UI.lineItem: [ {
+    position: 10 , 
+    importance: #MEDIUM, 
+    label: 'SemantickeyRoot'
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'SemantickeyRoot'
+  } ]
+  SemantickeyRoot;
+  
+  @UI.lineItem: [ {
+    position: 20 , 
+    importance: #MEDIUM, 
+    label: 'Description'
+  } ]
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Description'
+  } ]
+  Description;
+  
+  @UI.hidden: true
+  Locallastchangedat;
+}

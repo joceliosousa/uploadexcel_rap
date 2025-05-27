@@ -1,0 +1,6 @@
+@EndUserText.label: 'Custom Entity Service Definition'
+define service ZMHL_Custom_Entity {
+  expose ZMHL_C_Custom_Header as Header;
+  expose ZMHL_C_Custom_Item   as Item;
+  expose ZMHL_C_CUSTOM_MSG    as Msg;
+}

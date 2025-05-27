@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: fiori.numen.uploadexcel
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: https://s4hana2023.numenit.com:44301
+          client: "100"
+        app:
+          name: ZUI5_EXCUPLOAD
+          description: Uplo
+          package: ZAPP_UPLOAD_EXCEL
+          transport: S4HK904958
+        exclude:
+          - /test/

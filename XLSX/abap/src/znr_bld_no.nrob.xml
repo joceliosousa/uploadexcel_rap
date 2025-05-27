@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>ZNR_BLD_NO</OBJECT>
+    <DOMLEN>NUM5</DOMLEN>
+    <PERCENTAGE>20.0</PERCENTAGE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <CHANGED_AT>20250512144237.320297</CHANGED_AT>
+    <CHANGED_BY>JSOUSA</CHANGED_BY>
+    <ENAME>JSOUSA</ENAME>
+    <EDATE>2025-05-12</EDATE>
+    <ETIME>11:40:30</ETIME>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>P</LANGU>
+    <OBJECT>ZNR_BLD_NO</OBJECT>
+    <TXT>upload excel range</TXT>
+    <TXTSHORT>upload excel range</TXTSHORT>
+    <ENAME>JSOUSA</ENAME>
+    <EDATE>2025-05-12</EDATE>
+    <ETIME>11:40:30</ETIME>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

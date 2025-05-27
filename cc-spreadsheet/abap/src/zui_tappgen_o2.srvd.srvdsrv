@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for ZC_TAPPGEN'
+define service ZUI_TAPPGEN_O2 {
+  expose ZC_TAPPGEN as appGen;
+}
