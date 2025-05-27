@@ -25,14 +25,13 @@ A segunda parte fala como Extender o app Fiori elements com a funcionanlidade do
 Para isso, siga os passos e utilize o Guided Development para implementar o botão e customize o fragment (diálogo que mostrará quando clicar no botão upload excel). Para que já está acostumado utilizar o Guided development, é bem simples. Para que não está, siga os passos e veja qual simples é.
 Ao final da parte 2, já temos como abrir o diálogo do upload excel através do custom button criado.
 
-![image](https://github.com/user-attachments/assets/8e02a705-4bee-48cf-9a21-0ec2f1cab71a)
-
 
 O passo três fala de como instalar o módulo e configurar para subir junto no deploy. 
 
 Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a parte de precisar configurar os arquivos .yaml.
 
-![image](https://github.com/user-attachments/assets/8f90ecd2-24ac-4817-b14c-521d12eb067e)
+![image](https://github.com/user-attachments/assets/79ff6015-7bd7-4c3d-8d93-ad857c15f741)
+
  
 Arquivo disponível no link:
 
