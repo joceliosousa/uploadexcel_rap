@@ -3,9 +3,9 @@
 Não apenas uma, mas três dicas para implementar chamada de arquivo do Excel para cadastro ou edição em massa em um App desenvolvido em RAP - oData, no OnPremise.
 Neste tutorial, pretendo listar meus favoritos, não limitando-os a utilizar outras implementações que estão disponíveis e muita gente utiliza. 
 
-O primeiro, para mim foi o primeiro, usando RAP + custom action UI5 - XLXS.js
+O primeiro, para mim foi o primeiro, usando RAP + custom action UI5 - XLSX.js
 
-## Módulo XLSX
+## Componente XLSX
 
 Este, reconhecidamente funciona. Já uso há vários anos em alguns dos apps que desenvolvi. Como está diponível a mais tempo, tenho mais base para falar bastante dele, e recomendar.
 
@@ -26,7 +26,7 @@ Para isso, siga os passos e utilize o Guided Development para implementar o bot�
 Ao final da parte 2, já temos como abrir o diálogo do upload excel através do custom button criado.
 
 
-O passo três fala de como instalar o módulo e configurar para subir junto no deploy. 
+O passo três fala de como instalar o componente e configurar para subir junto no deploy. 
 
 Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a parte de precisar configurar os arquivos .yaml.
 
@@ -54,7 +54,7 @@ Utilize como parâmetro para o cenário odata v2, este exemplo disponibilizado e
 
 Copie os arquivos da pasta ext, e altere onde necessitar para o cenário pretendido. Normalmente não se altera muita coisa a não ser que tenha que converter algum tipo de dado...
 
-Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: **npm install ui5-cc-spreadsheetimporter**
+Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o componente: **npm install ui5-cc-spreadsheetimporter**
 
 Este trechos do manifest:
 
